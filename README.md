@@ -30,6 +30,11 @@ log.Error(ctx, "oh my goodness")
 // {"level":"error","msg":"oh my goodness","time":"2022-07-23T12:01:43+01:00","trace_id":"my-trace-id"}
 ```
 
+## To Do:
+
+* Tests that capture the system log and perform appropriate validations.
+* Benchmarking & Profiling.
+
 ## Contributing
 
 This is a very early rendition of this package. I'll likely expand this out as I start to adopt it in TutorialEdge's services. 

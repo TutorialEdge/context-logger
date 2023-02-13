@@ -2,8 +2,9 @@ package ctxlog_test
 
 import (
 	"context"
-	"github.com/TutorialEdge/ctxlog"
 	"testing"
+
+	"github.com/TutorialEdge/ctxlog"
 )
 
 func TestLogger(t *testing.T) {
